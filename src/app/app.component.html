@@ -1,0 +1,34 @@
+<div id="main-wrapper" data-navbarbg="skin6" data-theme="light" data-layout="vertical" data-sidebartype="full" data-boxed-layout="full">
+
+  <app-header></app-header>
+  <app-sidebar></app-sidebar>
+  <app-breadcrumb></app-breadcrumb>
+  
+  <div class="container-fluid">
+
+    <div class="page-wrapper">
+      <!-- Container fluid  -->
+      <div class="container-fluid">
+          <!-- Start Page Content -->
+          <div class="row">
+              <div class="col-12">
+                  <div class="card card-body">
+                    <router-outlet></router-outlet>
+                  </div>
+              </div>
+          </div>
+          <!-- End PAge Content -->
+          <!-- Right sidebar -->
+          <!-- .right-sidebar -->
+          <!-- End Right sidebar -->
+      </div>
+      <!-- End Container fluid  -->
+      <!-- footer -->
+      <footer class="footer text-center">
+          All Rights Reserved by Nice admin. Designed and Developed by
+          <a href="https://wrappixel.com">WrapPixel</a>.
+      </footer>
+      <!-- End footer -->
+    </div>
+  </div>
+</div>
